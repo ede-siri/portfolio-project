@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.banner-gradient {
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background:linear-gradient(-45deg, #F7AEF8, #72DDF7, #f45edd, #8093F1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+ li{
+    list-style: none;
+    padding: 20px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+ul{
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin: 10px auto;
+} 
+nav{
+    margin: 0;
+    padding: 10px;
+}
