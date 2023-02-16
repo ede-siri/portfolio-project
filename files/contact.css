@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(227, 227, 227);
+}
+.maincontainer {
+  height: 100vh;
+  background-color: white;
+  width: 80%;
+  margin: 9% auto;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(170, 170, 170, 0.25));
+}
+
+form {
+  display: flex;
+  text-align: center;
+  margin: 0% auto;
+  flex-direction: column;
+  border: 2px solid tomato;
+  padding: 40px;
+}
+
+input,
+textarea {
+  font-size: 30px;
+  margin: 10px;
+  border: 2px solid rgb(93, 93, 93);
+  border-radius: 10px;
+  color: rgb(17, 17, 17);
+}
